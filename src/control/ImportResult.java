@@ -81,7 +81,7 @@ public class ImportResult {
     
     public void addErrorMessage(String message) {
         this.messages.add("ERROR: " + message);
-        this.overallSuccess = true;
+        this.overallSuccess = false;
     }
 
     @Override
