@@ -21,7 +21,7 @@ public class Main {
             @Override
             public void run() {
                 MainAppFrame mainFrame = new MainAppFrame(); 
-                mainFrame.setVisible(false);
+                mainFrame.setVisible(true);
             }
         });
     }
