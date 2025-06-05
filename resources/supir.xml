@@ -1,0 +1,18 @@
+<inventoryUpdateRequest>
+    <suppliers>
+        <supplier supplierCode="XMLSUP001" supplierName="Acme Dental Supplies" recentSupplyDate="2025-05-28"/>
+        <supplier supplierCode="XMLSUP002" supplierName="Apex Dental Equipment" recentSupplyDate="2025-05-15"/>
+        <supplier supplierCode="XMLSUP003" supplierName="BrightSmile Labs" recentSupplyDate="2025-06-01"/>
+        <supplier supplierCode="XMLSUP999" supplierName="Test Supplier Inc." recentSupplyDate="2025-04-10"/> 
+    </suppliers>
+    <items>
+        <item barcode="XML058-F1" productTitle="Instrument Trays" productDetails="Stainless steel, various sizes" category="Sterilization Supplies" availableUnits="8" expirationDate="N/A" thresholdStock="2" supplierCode="XMLSUP001"/>
+        <item barcode="XML59-D2" productTitle="Lab Wax (Casting)" productDetails="Green, 1lb block" category="Lab Materials" availableUnits="5" expirationDate="2025-11-01" thresholdStock="1" supplierCode="XMLSUP003"/>
+        <item barcode="XML60-H3" productTitle="Ortho Chains" productDetails="Power chains, assorted colors" category="Orthodontic Supplies" availableUnits="18" expirationDate="2027-01-01" thresholdStock="5" supplierCode="XMLSUP001"/>
+        <item barcode="XML61-J4" productTitle="Interdental Brushes" productDetails="Assorted sizes, pack of 100" category="Oral Hygiene Products" availableUnits="100" expirationDate="2027-05-01" thresholdStock="20" supplierCode="XMLSUP002"/>
+        <item barcode="XML62-J5" productTitle="Clindamycin 300mg" productDetails="Oral antibiotic, 30 caps" category="Pharmaceuticals (Dental)" availableUnits="15" expirationDate="2025-09-01" thresholdStock="3" supplierCode="XMLSUP003"/>
+        <item barcode="XML64-L7" productTitle="Cotton Rolls" productDetails="Size #2, box of 2000" category="Consumables" availableUnits="75" expirationDate="2027-12-01" thresholdStock="25" supplierCode="XMLSUP001"/>
+        <item barcode="XML67-00" productTitle="Light Cure Unit Filters" productDetails="Replacement filters" category="Dental Equipment" availableUnits="3" expirationDate="N/A" thresholdStock="2" supplierCode="XMLSUP002"/>
+        <item barcode="XML-123" productTitle="Testing Supplier Item" productDetails="Test item" category="Test" availableUnits="10" expirationDate="2026-01-01" thresholdStock="2" supplierCode="XMLSUP999"/> 
+    </items>
+</inventoryUpdateRequest>
